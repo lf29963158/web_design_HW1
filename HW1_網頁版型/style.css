@@ -1,0 +1,109 @@
+.arialB {
+    font-family: "Arial Black", sans-serif;
+}
+.arialMT {
+    font-family: "ArialMT Regular", sans-serif;
+}
+.arialBMT {
+    font-family: "Arial BoldMT", sans-serif;
+    font-weight: bold;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.background {
+    width: 1260px;
+    height: 880px;
+    background-color: rgb(237, 242, 197);
+}
+
+.Navigator {
+    background-color: rgb(119, 138, 80);
+    color: rgb(119, 186, 80);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.TopMost {
+    height: 62px;
+    padding-top: 43px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#page {
+    font-size: 44px;
+    padding-right: 468px;
+}
+
+.Social {
+    padding-right: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+#Between {
+    height: 25px;
+    width: 0px;
+    border-left: 1px solid rgb(119, 138, 80);
+}
+
+#article-line {
+    height: 0px;
+    width: 414px;
+    border-top: 1px solid rgb(125, 125, 125);
+}
+
+#box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(119, 138, 80);
+    border-image: initial;
+    border-radius: 3px;
+}
+
+.link {
+    color: rgb(119, 138, 80);
+    text-decoration: none;
+}
+
+.navB {
+    font-size: 16px;
+    color: rgb(237, 242, 197);
+}
+
+.vertical-align {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 26px;
+}
+
+.information {
+    margin-top: 16px;
+    width: 445px;
+    height: 140px;
+    background-color: rgb(247, 251, 218);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descrep {
+    margin-top: 0px;
+    width: 410px;
+    font-size: 12px;
+    line-height: 1.33;
+    color: rgb(125, 125, 125);
+}
